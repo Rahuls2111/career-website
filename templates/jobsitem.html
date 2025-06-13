@@ -1,0 +1,13 @@
+<div class='card mt-4 ml-4 mr-2' style='margin-left:2px;width: 18rem;'>
+  <div class='card-body'>
+    <h5 class='card-title'>{{ job.title }}</h5>
+    <h6 class='card-subtitle mb-2 text-muted'>{{ job.location }}</h6>
+    <p class='card-text'>{{ job.description }}</p>
+    {% if job.salary %}
+       <p class='card-text'>{{ job.salary }}</p>
+    {% else %}
+       <p class='card-text'>Salary not disclosed</p>
+    {% endif %}
+    <a href="#" class="card-link">Apply</a>
+  </div>
+</div>
