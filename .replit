@@ -1,4 +1,5 @@
 run = "python app.py"
+modules = ["web", "python-3.12", "python-3.9"]
 [nix]
 channel = "stable-24_05"
 
